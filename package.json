@@ -1,10 +1,12 @@
 {
   "name": "vue-pie-canvas",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "vue-pie",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clear": "rm ./lib/utils.js",
+    "babel": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,16 @@
   "bugs": {
     "url": "https://github.com/zhuyuhaoliar/vue-pie-canvas/issues"
   },
-  "homepage": "https://github.com/zhuyuhaoliar/vue-pie-canvas#readme"
+  "homepage": "https://github.com/zhuyuhaoliar/vue-pie-canvas#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
 }
