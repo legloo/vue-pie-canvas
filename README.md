@@ -38,4 +38,4 @@ html:
 ```
 
 #### Preview
-![image](https://github.com/zhuyuhaoliar/vue-pie-canvas/blob/main/lib/20201023110300preview.jpg?raw=true)
+![image](https://github.com/zhuyuhaoliar/vue-pie-canvas/blob/main/src/20201023110300preview.jpg?raw=true)

@@ -1,6 +1,6 @@
 {
   "name": "vue-pie-canvas",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "vue-pie",
   "main": "lib/index.js",
   "scripts": {
